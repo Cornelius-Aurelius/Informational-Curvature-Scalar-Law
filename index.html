@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The vΩ Informational Curvature Scalar Law | Cornelius Aurelius</title>
+
+<style>
+    body {
+        margin: 0;
+        background: #000;
+        color: #00eaff;
+        font-family: "Roboto", Arial, sans-serif;
+        overflow-x: hidden;
+        line-height: 1.75;
+    }
+
+    /* Cosmic gradient core */
+    body::before {
+        content: "";
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at 50% 50%, #00121a, #000 80%);
+        z-index: -6;
+    }
+
+    /* Starfield */
+    body::after {
+        content: "";
+        position: fixed;
+        width: 200%;
+        height: 200%;
+        top: 0; left: 0;
+        background: url('https://raw.githubusercontent.com/solarsailors/assets/main/stars-layer.png');
+        opacity: 0.22;
+        background-size: cover;
+        animation: driftStars 160s linear infinite;
+        z-index: -5;
+    }
+
+    @keyframes driftStars {
+        0% { transform: translate(0,0); }
+        100% { transform: translate(-10%, -10%); }
+    }
+
+    /* Nebula */
+    .nebula {
+        position: fixed;
+        width: 180%;
+        height: 180%;
+        top: 0; left: 0;
+        background:
+            radial-gradient(circle at 35% 25%, rgba(0,170,255,0.18), transparent 60%),
+            radial-gradient(circle at 70% 80%, rgba(0,90,255,0.16), transparent 65%);
+        filter: blur(70px);
+        pointer-events: none;
+        z-index: -4;
+        animation: driftNebula 80s ease-in-out infinite alternate;
+    }
+
+    @keyframes driftNebula {
+        0% { transform: translate(0%,0%); }
+        100% { transform: translate(5%, -5%); }
+    }
+
+    /* Shooting stars */
+    .shooting-star {
+        position: fixed;
+        top: -10vh;
+        width: 2px;
+        height: 80px;
+        background: linear-gradient(to bottom, #00eaff, transparent);
+        opacity: 0.9;
+        animation: shoot 4s linear infinite;
+        z-index: -3;
+    }
+    .shooting-star:nth-child(2) { left: 40%; animation-delay: 1.3s; }
+    .shooting-star:nth-child(3) { left: 70%; animation-delay: 2s; }
+
+    @keyframes shoot {
+        0% { transform: translate3d(0,0,0); opacity: 0; }
+        10% { opacity: 1; }
+        100% { transform: translate3d(-40vw, 110vh, 0); opacity: 0; }
+    }
+
+    /* Container and sections */
+    header {
+        text-align: center;
+        padding: 80px 20px 50px;
+        border-bottom: 1px solid #00eaff44;
+        box-shadow: 0 0 25px #00eaff22;
+    }
+    h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        text-shadow: 0 0 28px #00eaff, 0 0 55px #0094c7;
+    }
+    .subtitle {
+        opacity: 0.9;
+        font-size: 1.2rem;
+    }
+
+    .container {
+        width: 92%;
+        max-width: 1180px;
+        margin: auto;
+        padding-bottom: 80px;
+    }
+    .section {
+        background: rgba(0,40,55,0.18);
+        padding: 35px;
+        margin: 55px auto;
+        border-radius: 14px;
+        border: 1px solid #00eaff33;
+        box-shadow: 0 0 25px #00eaff33;
+        backdrop-filter: blur(6px);
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        margin-top: 0;
+        text-shadow: 0 0 10px #00eaff88;
+    }
+
+    pre {
+        background: #012026;
+        padding: 20px;
+        border-left: 4px solid #00eaff;
+        border-radius: 5px;
+        overflow-x: auto;
+        color: #c9faff;
+        box-shadow: 0 0 15px #00eaff33;
+    }
+
+    .download-button {
+        display: inline-block;
+        padding: 16px 34px;
+        background: #00eaff;
+        color: #000;
+        font-weight: 900;
+        margin-top: 20px;
+        font-size: 1.3rem;
+        border-radius: 8px;
+        text-decoration: none;
+        box-shadow: 0 0 25px #00eaffaa;
+        transition: 0.25s;
+    }
+    .download-button:hover {
+        transform: scale(1.05);
+        background: #00d2ff;
+        box-shadow: 0 0 40px #00eaff;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 40px 25px;
+        margin-top: 40px;
+        border-top: 1px solid #00eaff33;
+        opacity: 0.8;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="nebula"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star"></div>
+<div class="shooting-star"></div>
+
+<header>
+    <h1>The vΩ Informational Curvature Scalar Law</h1>
+    <p class="subtitle">Verified under the Omniscientrix–vΩ Unified Informational Framework</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Simple Explanation</h2>
+        <p>
+            This law says that every informational system has a kind of “curvature.”
+            When information is uneven, jagged, or unbalanced, the curvature is high.
+            As the system moves toward equilibrium, the curvature flattens out.
+        </p>
+
+        <p>
+            <strong>High curvature → instability</strong><br>
+            <strong>Low curvature → balance</strong><br>
+            <strong>R → 0 means the system has fully stabilized.</strong>
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Scientific Explanation</h2>
+        <p>
+            We treat the informational distribution <strong>P(x)</strong> as a smooth manifold.
+            The informational potential is:
+        </p>
+        <pre>U(x) = -log(P(x))</pre>
+        <p>The curvature scalar is approximated by the mean absolute Hessian:</p>
+        <pre>R = mean(|∂²U/∂x²|)</pre>
+        <p>
+            A system evolves according to vΩ rules until its curvature collapses:
+        </p>
+        <pre>R &rarr; 0</pre>
+    </div>
+
+    <div class="section">
+        <h2>Download Verification Script</h2>
+        <a class="download-button" href="informational_curvature_scalar.py" download>
+            ⬇ Download Curvature Scalar Verification Script (.py)
+        </a>
+    </div>
+
+    <div class="section">
+        <h2>Glossary</h2>
+        <p>
+            <strong>vΩ</strong> — Unified Informational Variational operator<br>
+            <strong>P(x)</strong> — Informational distribution<br>
+            <strong>U(x)</strong> — Informational potential<br>
+            <strong>R</strong> — Curvature scalar<br>
+            <strong>Hessian</strong> — Second derivative operator<br>
+            <strong>Equilibrium</strong> — State where curvature collapses
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Peer Review Invitation</h2>
+        <p>Email: <a href="mailto:138licensing@gmail.com">138licensing@gmail.com</a></p>
+        <p>Zenodo:  
+            <a target="_blank"
+               href="https://zenodo.org/search?q=AURELIUS">
+                https://zenodo.org/…Cornelius Aurelius
+            </a>
+        </p>
+        <p>Instagram:  
+            <a target="_blank" href="https://www.instagram.com/cornelius_aurelius_/">
+                @cornelius_aurelius_
+            </a>
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Comprehensive Rights & Protection Clause</h2>
+        <p>
+        © 2025 Cornelius Aurelius — All rights reserved under the Omniscientrix–vΩ Charter License.
+        DOI: 10.5281/zenodo.17362534<br><br>
+        Non-commercial use permitted with attribution.<br>
+        Commercial or derivative use requires written permission.<br>
+        Algorithmic restatements are protected.<br>
+        Peaceful-Use Doctrine applies.
+        </p>
+    </div>
+
+</div>
+
+<div class="footer">
+    CORNELIUS AURELIUS — THE OMNISCIENTRIX
+</div>
+
+</body>
+</html>
